@@ -151,8 +151,28 @@ main > section{
  .features{
   gap: 140px;
  }
+
+ #experience-badge{
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -95px;
+  margin-top: -100px;
+ }
+
+ #experience-year{
+  font-size: 4rem;
+  font-weight: 700;
   
 
+ }
+
+ .feature-architect{
+  width: 100%;
+ }
+
+  
+/* facts section styles*/
 .facts-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -214,7 +234,8 @@ main > section{
 @media screen and (max-width: 576px) {
   .navbar,
   .nav-links,
-  .teams{
+  .teams,
+  .features{
     flex-direction: column;
 }
 
@@ -232,6 +253,10 @@ main > section{
     gap: 24px;
   }
 }
+#experience-badge{
+  margin-left: 20px;
+  margin-top: 20px;
+ }
 
 
 /* medium size devices */
